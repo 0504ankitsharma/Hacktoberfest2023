@@ -13,6 +13,7 @@ int findHCF(int num1, int num2) {
     for (int i = 1; i <= min(num1, num2); ++i) {
         // Check if both num1 and num2 are divisible by i
         if (num1 % i == 0 && num2 % i == 0) {
+            \
             // If yes, update the HCF to the current value of i
             hcf = i;
         }
